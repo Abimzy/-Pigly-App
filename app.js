@@ -2,8 +2,9 @@ console.log("Hello");
 
 let subscribeButton = document.getElementById("mc-embedded-subscribe");
 
+
 subscribeButton.addEventListener("click", e => {
-  // e.preventDefault();
+    e.preventDefault();
   document.getElementById();
 });
 
