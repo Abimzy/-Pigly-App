@@ -1,11 +1,10 @@
 console.log("Hello");
 
 let subscribeButton = document.getElementById("mc-embedded-subscribe");
+let successMessage = document.getElementById("mce-success-response");
 
-
-subscribeButton.addEventListener("click", e => {
-    e.preventDefault();
-  document.getElementById();
+subscribeButton.addEventListener("submit", () => {
+  alert("hello");
 });
 
 document.getElementById("mce-EMAIL").val();
