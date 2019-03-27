@@ -21,10 +21,12 @@ body {
   color: #ffffff;
 }
 
+.radio-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
   /*  section {
     height: 100vh;
   } */
