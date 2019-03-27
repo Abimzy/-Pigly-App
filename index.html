@@ -25,34 +25,54 @@
     <!-- Logo and button for navbar -->
     <nav class="navbar nav-color position-fixed">
       <a class="navbar-brand" href="#">
-          <img src="/images/pig_logo.png" width="30" height="30" class="d-inline-block align-top" alt="Pigly logo">
-        Pigly
+        <img
+          src="/images/pig_logo.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt="Pigly logo"
+        />
       </a>
-      <a class="btn btn-dark my-2 my-sm-0" href="#mc_embed_signup">Sign up</a>
+      <a class="btn my-2 my-sm-0" href="#mc_embed_signup">Sign up</a>
     </nav>
+
     <main>
       <section id="hero">
-        <img
-          src="./images/Pigly_A_sunshine.png"
-          alt="man carrying woman"
-          class="img-fluid"
-        />
-        <section class="container mb-4">
-          <h4>Hey there adventurer,</h4>
-          <h3>Are you ready to spread a little sunshine?</h3>
-          <div>
-          <a class="btn btn-dark my-2 my-sm-0" href="#mc_embed_signup">Ride</a>
-          <a class="btn btn-dark my-2 my-sm-0" href="#mc_embed_signup">Carry</a>
-          </div>
-        </section>
+        <div class="p-5">
+          <h4 class="title-text">Hey there adventurer,</h4>
+          <h3 class="mb-4 title-text">
+            Are you ready to spread a little sunshine?
+          </h3>
+          <img
+            src="./images/Pigly_A_sunshine.png"
+            alt="man carrying woman"
+            class="center-block"
+          />
+          <section class="container mb-4">
+            <div class="hero-buttons">
+              <a
+                class="btn btn-dark my-2 my-sm-0 mr-3"
+                href="#mc_embed_signup"
+                style="background-color: #ee5659"
+                >Ride</a
+              >
+              <a
+                class="btn btn-dark my-2 my-sm-0"
+                href="#mc_embed_signup"
+                style="background-color: #3593cc"
+                >Carry</a
+              >
+            </div>
+          </section>
+        </div>
       </section>
 
       <!-- Rider Section -->
 
-      <section id="rider" class="container" >
+      <section id="rider" class="container">
         <div class="row">
           <div id="rider-1" class="col-sm rider-inner">
-              <h1>Ride:</h1>
+            <h1 class="title-text">Ride:</h1>
             <img
               class="small-img"
               src="./images/Pigly Arm trans.png"
@@ -60,10 +80,9 @@
               vh="100%"
               alt="pigly arm"
             />
-            <h3>Choose your destination</h3>
+            <h3 class="title-text text-center">Choose your destination</h3>
           </div>
           <div id="rider-2" class="col-sm rider-inner">
-              <h1>Ride:</h1>
             <img
               class="small-img"
               src="./images/Pigly stacked trans.png"
@@ -71,10 +90,9 @@
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>Hop on your backer</h3>
+            <h3 class="title-text text-center">Hop on your backer</h3>
           </div>
           <div id="rider-3" class="col-sm rider-inner">
-              <h1>Ride:</h1>
             <img
               class="small-img"
               src="./images/Pigly Ride A&B super adventure wo rainbow trans.png"
@@ -82,7 +100,9 @@
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>Adventure with your piggybacker to your destination</h3>
+            <h3 class="title-text text-center">
+              Adventure with your piggybacker to your destination
+            </h3>
           </div>
         </div>
       </section>
@@ -92,7 +112,7 @@
       <section id="carrier" class="container">
         <div class="row">
           <div id="carrier-1" class="col-sm carrier-inner">
-              <h1>Carry:</h1>
+            <h1 class="title-text">Carry:</h1>
             <img
               class="small-img"
               src="./images/Pigly B Arm trans.png"
@@ -100,10 +120,9 @@
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>Sign up to carry!</h3>
+            <h3 class="title-text text-center">Sign up to carry!</h3>
           </div>
           <div id="carrier-2" class="col-sm carrier-inner">
-              <h1>Carry:</h1>
             <img
               class="small-img"
               src="./images/pigs heart.png"
@@ -111,10 +130,9 @@
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>Get matched with riders!</h3>
+            <h3 class="title-text text-center">Get matched with riders!</h3>
           </div>
           <div id="carrier-3" class="col-sm carrier-inner">
-              <h1>Carry:</h1>
             <img
               class="small-img"
               src="./images/pigs coins.png"
@@ -122,20 +140,22 @@
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>Adventure around the city with your new friends -- AND get paid</h3>
+            <h3 class="title-text text-center">
+              Adventure around the city with your new friends -- AND get paid
+            </h3>
           </div>
         </div>
       </section>
       <!-- Begin Mailchimp Signup Form -->
       <div id="mc_embed_signup">
-        <div class="container">
+        <div class="">
           <form
             action="https://gmail.us20.list-manage.com/subscribe/post?u=971f558869b3997c74b91558a&amp;id=61f0f557dc"
             method="post"
             id="mc-embedded-subscribe-form"
             name="mc-embedded-subscribe-form"
             class="validate"
-            style="background-color: #000000;"
+            style="background-color: #ee565950;"
           >
             <div id="mc_embed_signup_scroll form-group">
               <h2 class="form-header">
@@ -175,6 +195,7 @@
                   name="EMAIL"
                   class="required email form-control"
                   id="mce-EMAIL"
+                  style="background-color: transparent"
                 />
               </div>
               <div class="mc-field-group">
@@ -189,6 +210,7 @@
                   id="mce-FNAME"
                   minlength="2"
                   pattern="[a-zA-Z]+"
+                  style="background-color: transparent"
                 />
               </div>
               <div class="mc-field-group">
@@ -203,6 +225,7 @@
                   id="mce-LNAME"
                   pattern="^[a-zA-Z]{2,}$"
                   minlength="2"
+                  style="background-color: transparent"
                 />
               </div>
               <div id="mce-responses" class="clear">
@@ -232,30 +255,39 @@
               <div class="clear">
                 <input
                   type="submit"
-                  value="Piggy"
+                  value="Enter"
                   name="subscribe"
                   id="mc-embedded-subscribe"
-                  class="btn"
+                  class="btn "
                 />
               </div>
             </div>
           </form>
         </div>
       </div>
-      <section id="download" class="container">
+      <!-- <section id="download" class="container"> -->
 
-      <section class="container logo">
-          <div class="row">
-            <div class="col-sm col-md-6" style= "border-radius: 20px">
-                <a href='itms://itunes.apple.com/us/app/apple-store/id375380948?mt=8'><img  class= "apple-logo align-self-center" src='/images/Applestorelogo.png' alt='Get it on Apple Play logo' /></a>     
-            </div>
-            <div class="col-sm col-md-6">
-                <a href='https://play.google.com/store/?pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img  class= "google-logo align-self-end" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' alt='Get it on Google Play logo' /></a>
-            </div>
+      <section
+        class="container title-text logo class text-center download-section"
+        style="background-color: #3593cc50;"
+      >
+        <div class="row">
+          <h3 class="text-center" style="margin: 100px auto 50px auto;">
+            Grab the app to claim your ride!
+          </h3>
+          <div class="col-sm col-md-6" style="border-radius: 20px">
+            <a
+              href="itms://itunes.apple.com/us/app/apple-store/id375380948?mt=8"
+              ><img
+                class="apple-logo align-self-center"
+                src="/images/Applestorelogo.png"
+                alt="Get it on Apple Play logo"
+            /></a>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- </section>
+      <!-- </section>
       </section> -->
       <section id="about" class="container">
         <h2 class="text-center">About Pigly</h2>

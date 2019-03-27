@@ -4,6 +4,26 @@ body {
   color: #000000;
 }
 
+.title-text {
+  font-family: "Margarine";
+  font-size: 40;
+  color: #ffffff;
+}
+
+.sub-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #898989;
+}
+
+.navbar {
+  z-index: 100;
+  width: 100%;
+}
+#hero {
+  background-color: #3593cc50;
+}
+
 .small-img {
   border-radius: 20px;
 }
@@ -15,6 +35,17 @@ body {
 .logo {
     padding-top: 10px;
 } */
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+}
 
 .sign-up-button,
 .form-header {
@@ -37,33 +68,30 @@ body {
   height: 50px;
 }
 
-.google-logo {
-  padding-top: 5px;
-  width: 170px;
-  height: 75px;
-  border-radius: 20px;
+.download-section {
+  height: 100vh;
 }
 
-@media only screen and (max-width: 375px) {
+#rider-1,
+#rider-2,
+#rider-3 {
+  background-color: #ee565950;
+}
+
+#carrier-1,
+#carrier-2,
+#carrier-3 {
+  background-color: #3593cc50;
+}
+
+@media only screen and (max-width: 400px) {
   #hero {
     height: 100vh;
-    background-color: #ee565950;
+    background-color: #3593cc50;
   }
 
   .rider-inner,
   .carrier-inner {
     height: 100vh;
-  }
-
-  #rider-1,
-  #rider-3,
-  #carrier-1,
-  #carrier-3 {
-    background-color: #3593cc50;
-  }
-
-  #rider-2,
-  #carrier-2 {
-    background-color: #ee565950;
   }
 }
