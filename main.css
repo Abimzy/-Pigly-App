@@ -1,3 +1,11 @@
 .small-img {
-    border-radius: 20px;
+  border-radius: 20px;
+}
+
+.nav-color {
+  background-color: #ee5659;
+}
+
+.sign-up-button {
+  color: #ee5659;
 }
