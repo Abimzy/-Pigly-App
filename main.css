@@ -32,9 +32,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  /*  section {
+  section {
     height: 100vh;
-  } */
+  }
 }
 
 .apple-logo {
