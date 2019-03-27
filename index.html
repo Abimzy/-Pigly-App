@@ -23,9 +23,9 @@
 
   <body>
     <!-- Logo and button for navbar -->
-    <nav class="navbar nav-color">
+    <nav class="navbar nav-color position-fixed">
       <a class="navbar-brand" href="#">
-          <img src="/images/Artboard.png" width="30" height="30" class="d-inline-block align-top" alt="Pigly logo">
+          <img src="/images/pig_logo.png" width="30" height="30" class="d-inline-block align-top" alt="Pigly logo">
         Pigly
       </a>
       <a class="btn btn-dark my-2 my-sm-0" href="#mc_embed_signup">Sign up</a>
@@ -33,47 +33,96 @@
     <main>
       <section id="hero">
         <img
-          src="./images/kyle-sudu-1340407-unsplash.jpg"
+          src="./images/Pigly_A_sunshine.png"
           alt="man carrying woman"
           class="img-fluid"
         />
         <section class="container mb-4">
-          <h2 class="text-center">ridesharing, piggybacked</h2>
-          <h4 class="text-center">how it works</h4>
+          <h4>Hey there adventurer,</h4>
+          <h3>Are you ready to spread a little sunshine?</h3>
+          <div>
+          <a class="btn btn-dark my-2 my-sm-0" href="#mc_embed_signup">Ride</a>
+          <a class="btn btn-dark my-2 my-sm-0" href="#mc_embed_signup">Carry</a>
+          </div>
         </section>
       </section>
 
-      <section class="container" style="padding-top: 5px;">
+      <!-- Rider Section -->
+
+      <section id="rider" class="container" >
         <div class="row">
-          <div class="col-sm">
+          <div id="rider-1" class="col-sm rider-inner">
+              <h1>Ride:</h1>
             <img
               class="small-img"
-              src="./images/kyle-sudu-1340407-unsplash.jpg"
+              src="./images/Pigly Arm trans.png"
               width="100%"
               vh="100%"
-              alt="man carrying woman"
+              alt="pigly arm"
             />
-            <h3>first, you ask for a piggy</h3>
+            <h3>Choose your destination</h3>
           </div>
-          <div class="col-sm">
+          <div id="rider-2" class="col-sm rider-inner">
+              <h1>Ride:</h1>
             <img
               class="small-img"
-              src="./images/kyle-sudu-1340407-unsplash.jpg"
+              src="./images/Pigly stacked trans.png"
               width="100%"
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>a backer sees your request and accepts</h3>
+            <h3>Hop on your backer</h3>
           </div>
-          <div class="col-sm">
+          <div id="rider-3" class="col-sm rider-inner">
+              <h1>Ride:</h1>
             <img
               class="small-img"
-              src="./images/kyle-sudu-1340407-unsplash.jpg"
+              src="./images/Pigly Ride A&B super adventure wo rainbow trans.png"
               width="100%"
               vh="100%"
               alt="man carrying woman"
             />
-            <h3>your backer comes to meet, and voila, you're off!</h3>
+            <h3>Adventure with your piggybacker to your destination</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carrier Section -->
+
+      <section id="carrier" class="container">
+        <div class="row">
+          <div id="carrier-1" class="col-sm carrier-inner">
+              <h1>Carry:</h1>
+            <img
+              class="small-img"
+              src="./images/Pigly B Arm trans.png"
+              width="100%"
+              vh="100%"
+              alt="man carrying woman"
+            />
+            <h3>Sign up to carry!</h3>
+          </div>
+          <div id="carrier-2" class="col-sm carrier-inner">
+              <h1>Carry:</h1>
+            <img
+              class="small-img"
+              src="./images/pigs heart.png"
+              width="100%"
+              vh="100%"
+              alt="man carrying woman"
+            />
+            <h3>Get matched with riders!</h3>
+          </div>
+          <div id="carrier-3" class="col-sm carrier-inner">
+              <h1>Carry:</h1>
+            <img
+              class="small-img"
+              src="./images/pigs coins.png"
+              width="100%"
+              vh="100%"
+              alt="man carrying woman"
+            />
+            <h3>Adventure around the city with your new friends -- AND get paid</h3>
           </div>
         </div>
       </section>
@@ -94,6 +143,27 @@
               </h2>
               <div class="indicates-required form-label">
                 <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="radio-buttons">
+                <div class="radio">
+                  <label class="form-label"
+                    ><input
+                      class="mr-2"
+                      type="radio"
+                      name="optradio"
+                      checked
+                    />Rider</label
+                  >
+                </div>
+                <div class="radio">
+                  <label class="form-label"
+                    ><input
+                      class="mr-2"
+                      type="radio"
+                      name="optradio"
+                    />Carrier</label
+                  >
+                </div>
               </div>
               <div class="mc-field-group">
                 <label class="form-label" for="mce-EMAIL"
@@ -134,27 +204,6 @@
                   pattern="^[a-zA-Z]{2,}$"
                   minlength="2"
                 />
-              </div>
-              <div class="radio-buttons">
-                <div class="radio">
-                  <label class="form-label"
-                    ><input
-                      class="mr-2"
-                      type="radio"
-                      name="optradio"
-                      checked
-                    />Rider</label
-                  >
-                </div>
-                <div class="radio">
-                  <label class="form-label"
-                    ><input
-                      class="mr-2"
-                      type="radio"
-                      name="optradio"
-                    />Carrier</label
-                  >
-                </div>
               </div>
               <div id="mce-responses" class="clear">
                 <div
@@ -211,7 +260,7 @@
       <section id="about" class="container">
         <h2 class="text-center">About Pigly</h2>
         <img
-          src="https://media.istockphoto.com/photos/pig-picture-id120534386?k=6&m=120534386&s=612x612&w=0&h=nsy1ZpqPri6EfAaAOYgjLjpT5GjHGkgtEq0YTRiG6UU="
+          src="./images/Pigly Heart.png"
           alt="..."
           class="img-thumbnail pull-left"
         />
@@ -237,6 +286,7 @@
           </p>
         </div>
       </section>
+      <p>End of our adventure here ;( <a href="#">Back to top></a></p>
     </main>
     <!-- Footer -->
 

@@ -6,7 +6,6 @@ body {
 
 .small-img {
   border-radius: 20px;
-  background-color: #f7dcdc;
 }
 
 .small-img {
@@ -31,12 +30,6 @@ body {
   justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 600px) {
-  /*  section {
-    height: 100vh;
-  } */
-}
-
 .apple-logo {
   border-radius: 5px;
   margin-top: 15px;
@@ -49,4 +42,28 @@ body {
   width: 170px;
   height: 75px;
   border-radius: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  #hero {
+    height: 100vh;
+    background-color: #ee565950;
+  }
+
+  .rider-inner,
+  .carrier-inner {
+    height: 100vh;
+  }
+
+  #rider-1,
+  #rider-3,
+  #carrier-1,
+  #carrier-3 {
+    background-color: #3593cc50;
+  }
+
+  #rider-2,
+  #carrier-2 {
+    background-color: #ee565950;
+  }
 }
