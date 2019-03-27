@@ -1,11 +1,7 @@
+body {
+    background-color: #f7dcdc;
+}
+
 .small-img {
-  border-radius: 20px;
-}
-
-.nav-color {
-  background-color: #ee5659;
-}
-
-.sign-up-button {
-  color: #ee5659;
+    border-radius: 20px;
 }
